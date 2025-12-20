@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* STYLE HEADER */
+
+header{
+    background-color: #f2f2f2;
+    
+}
+
+.logo-header{
+    width: 100px;
+}
+
+.nav-buttons{
+    color: #022601;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* BANNER HOME */
+
+.banner-home{
+    height: 350px;
+}
+
+/* MOSAICOS HOME */
+
+.mosaico-home{
+    width: 80px;
+    align-items: center;
+}
+
+.text-mosaico-home{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* TITULOS Y TEXTOS GENERALES */
+
+h1{
+    color:#12482e;
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+}
+
+h2{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+h3{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h4{
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+p{
+    color: black;
+    font-size: 14px;
+}
+
+/* PRODUCTOS DESTACADOS */
+
+.produdestac-home{
+    width: 180px;
+}
+
+/* BOTONES */
+
+.botones{
+    text-align: center;
+    color: rgb(224, 109, 1);
+}
+
+/* STYLE FOOTER */
+
+.footer-nav1{
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-nav1{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.logorss-footer{
+    width: 16px;
+}
+
+/* STYLE CATÁLOGO */
+
+.img-catalogo{
+    width: 250px;
+}
+
+/* STYLE CONTACTOS */
+
+.input-form{
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.radiobutton-form{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.contactos-lista{
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: lighter;
+}
