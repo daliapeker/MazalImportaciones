@@ -180,14 +180,6 @@ p{
     border-radius: 40px;
 }
 
-/* .boton-contact-home{
-    text-align: center;
-    text-decoration: none;
-    background-color: #022601;
-    color: #2dd668;
-    text-decoration-color: #2dd668;
-} */
-
 /* BOTONES */
 
 .botones{
@@ -279,27 +271,75 @@ p{
 }
 
 
-/* .footer-nav1{
-    font-weight: bold;
-    color: black;
-    font-size: 12px;
-    text-decoration: none;
+
+/* BANNER CATÁLOGO */
+
+.banner-catalogo {
+  position: relative;
+  height: 40vh;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
-.footer-nav1{
-    color: black;
-    font-size: 12px;
-    text-decoration: none;
+.banner-catalogo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.logorss-footer{
-    width: 16px;
-} */
+.banner-catalogo h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding-left: 48px;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #022601;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
 
 /* STYLE CATÁLOGO */
 
+.catalogo{
+    text-align: center;
+}
+
+.catalogo h2{
+    display: inline-block;
+    background-color: #1F733C;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
 .img-catalogo{
     width: 250px;
+}
+
+.card-boton{
+    background-color: #F29C50;
+    color: #F2F2F2;
+    font-weight: bold;
+    padding: 8px 20px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+    font-size: 12px;
+}
+
+.card-boton:hover{
+    background-color: #BF3617;
 }
 
 /* STYLE CONTACTOS */
