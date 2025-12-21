@@ -63,21 +63,50 @@ header{
 /* BANNER HOME */
 
 .banner-home{
-    height: 350px;
+    height: 60vh;
+    background-image: url("../img/bannerhome-adaptado.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
 }
+
 
 /* MOSAICOS HOME */
 
-.mosaico-home{
-    width: 80px;
-    align-items: center;
+.menu-mosaicos{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 16px;
+    padding: 20px 0;
+}
+
+.mosaico-item{
+    place-items: center;
+    gap: 14px;
+    text-align: center;
+}
+
+.mosaico-imagen{
+    margin-top: 30px;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    border: 0.5px solid #022601;
 }
 
 .text-mosaico-home{
-    color: black;
-    font-size: 12px;
+    color: #022601;
+    background-color: #2dd668;
+    border-radius: 5px;
+    font-size: 14px;
     text-decoration: none;
-    text-align: center;
+    padding: 5px;
+}
+
+.text-mosaico-home:hover{
+    background-color: #F29C50;
 }
 
 /* TITULOS Y TEXTOS GENERALES */
