@@ -116,6 +116,7 @@ h1{
     font-size: 30px;
     font-weight:bold;
     text-align: center;
+    padding: 10px;
 }
 
 h2{
@@ -146,6 +147,46 @@ p{
 .produdestac-home{
     width: 180px;
 }
+
+.card{
+    margin: 10px;
+}
+
+/* QUERES HACER UN PEDIDO - HOME */
+
+.querespedir-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/banner-cajasdepositoII.png);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.boton-contact-home{
+    background-color: #022601;
+    color: #F2F2F2;
+    font-weight: bold;
+    padding: 12px 32px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+/* .boton-contact-home{
+    text-align: center;
+    text-decoration: none;
+    background-color: #022601;
+    color: #2dd668;
+    text-decoration-color: #2dd668;
+} */
 
 /* BOTONES */
 
