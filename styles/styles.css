@@ -270,8 +270,6 @@ p{
   opacity: 1;
 }
 
-
-
 /* BANNER CATÁLOGO */
 
 .banner-catalogo {
@@ -344,25 +342,185 @@ p{
 
 /* STYLE CONTACTOS */
 
-.input-form{
-    font-weight: bold;
-    color: black;
-    font-size: 12px;
-    text-decoration: none;
+.banner-contactos {
+  position: relative;
+  height: 40vh;
+  overflow: hidden;
+  margin-bottom: 20px;
 }
 
-.radiobutton-form{
-    color: black;
-    font-size: 12px;
-    text-decoration: none;
-    font-weight: lighter;
+.banner-contactos img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.contactos-lista{
-    color: black;
-    font-size: 12px;
-    text-decoration: none;
-    font-weight: lighter;
+.banner-contactos h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding-left: 48px;
+  display: flex;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 800;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.title-contacto{
+    text-align: center;
+}
+
+.title-contacto h1{
+    display: inline-block;
+    background-color: #1F733C;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.title-contacto h3{
+    color: #1F733C;
+    padding: 8px 15px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+/* Formulario */
+
+.form-contacto {
+  max-width: 420px;
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-field label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.form-field input {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+
+.form-field input:focus {
+  outline: none;
+  border-color: #022601;
+  box-shadow: 0 0 0 3px rgba(45, 214, 104, 0.25);
+  background-color: #fff;
+}
+
+.form-radios {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.form-radios p {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.form-radios label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 400;
+}
+
+.btn-enviar {
+  margin-top: 14px;
+  padding: 12px;
+  background-color: #1F733C;
+  color: #fff;
+  font-weight: 800;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background-color: #022601;
+}
+
+/* Post Formulario */
+
+.contacto-box {
+  max-width: 500px;
+  margin: 32px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-left: 5px solid #F29C50;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contacto-box h2 {
+  font-size: 15px;
+  font-weight: 800;
+  margin-bottom: 12px;
+  color: #022601;
+}
+
+.contacto-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contacto-box li {
+  font-size: 13px;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+  line-height: 1.4;
+}
+
+.contacto-box li::before {
+  position: absolute;
+  left: 0;
+  top: 0.1em;
+}
+
+.icon-phone::before {
+  content: "📞";
+  position: absolute;
+  left: 0;
+}
+
+.icon-mail::before {
+  content: "✉️";
+  position: absolute;
+  left: 0;
+}
+
+.icon-ig::before {
+  content: "📷";
+  position: absolute;
+  left: 0;
 }
 
 /* MEDIA QUERY */

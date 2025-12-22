@@ -52,46 +52,76 @@
 
     <main>
 
-        <h1>Ampliá tu catálogo con Mazal</h1>
-        <h3>Dejanos tus datos para que podamos contactarte</h3>
+        <section class="banner-contactos">
+            <img src="../img/banner-contactanos.png" alt="Banner contactos">
+            <h1>CONTACTOS</h1>
+        </section>
+
+        <section class="title-contacto">
+            <h1>Ampliá tu catálogo con Mazal</h1>
+            <h3>Dejanos tus datos para que podamos contactarte</h3>
+        </section>
+
+
 
         <!-- FORMULARIO CONTACTO -->
 
-        <form action="">
+        <section>
 
-            <label for="nombre-form" class="input-form">Nombre y apellido</label>
-            <input type="text">
+            <form class="form-contacto" action="">
 
-            <label for="telefono-form" class="input-form">Teléfono</label>
-            <input type="text">
+                <div class="form-field">
+                    <label for="nombre">Nombre y apellido</label>
+                    <input type="text" id="nombre">
+                </div>
 
-            <label for="email-form" class="input-form">Email</label>
-            <input type="text">
+                <div class="form-field">
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono">
+                </div>
 
-            <label for="provincia-form" class="input-form">Provincia</label>
-            <input type="text">
+                <div class="form-field">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                </div>
 
-            <p class="input-form">Tipo de punto de venta:</p>
-            <label for="" class="radiobutton-form">Ferretería al público</label>
-            <input type="radio" name="punto-venta">
-            <label for="" class="radiobutton-form">Distribuidor</label>
-            <input type="radio" name="punto-venta">
-            <label for="" class="radiobutton-form">Mayorista</label>
-            <input type="radio" name="punto-venta">
+                <div class="form-field">
+                    <label for="provincia">Provincia</label>
+                    <input type="text" id="provincia">
+                </div>
 
-            <input type="submit" value="ENVIAR">
+                <div class="form-radios">
+                    <p>Tipo de punto de venta</p>
+                    <label>
+                        <input type="radio" name="punto-venta"> Ferretería al público
+                    </label>
+                    <label>
+                        <input type="radio" name="punto-venta"> Distribuidor
+                    </label>
+                    <label>
+                        <input type="radio" name="punto-venta"> Mayorista
+                    </label>
+                </div>
 
-        </form>
+                <button type="submit" class="btn-enviar">Enviar</button>
+
+            </form>
+
+        </section>
 
         <hr>
 
-        <h2>Si tenés alguna duda, contactate con nosotros:</h2>
+        <div class="contacto-box">
 
-        <ul>
-            <li class="contactos-lista">WhatsApp: +5491145376452</li>
-            <li class="contactos-lista">Mail: info@mazalimportaciones.com</li>
-            <li class="contactos-lista">Instagram: /mazal_importaciones_srl</li>
+        <h2 class="titulo-contacto">Si tenés alguna duda, contactate con nosotros</h2>
+
+        <ul class="lista-contacto">
+            <li class="icon-phone">WhatsApp: +5491145376452</li>
+            <li class="icon-mail">Mail: info@mazalimportaciones.com</li>
+            <li class="icon-ig">Instagram: /mazal_importaciones_srl</li>
         </ul>
+
+        </div>
 
         <hr>
 
@@ -99,7 +129,7 @@
 
     <footer>
 
-       <!-- NAVEGACIÓN FOOTER -->
+        <!-- NAVEGACIÓN FOOTER -->
 
         <footer class="footer">
             <div class="footer-container">
@@ -135,11 +165,11 @@
             </div>
 
 
-    </footer>
+        </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
 
 </body>
 
