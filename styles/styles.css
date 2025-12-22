@@ -1,10 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
@@ -12,48 +12,50 @@ body{
 
 /* STYLE HEADER */
 
-header{
+header {
     background-color: #f2f2f2;
-    
+
 }
 
-.logo-header{
+.logo-header {
     width: 100px;
 }
 
-.nav-bgcolor{
+.nav-bgcolor {
     background-color: #f2f2f2;
 }
 
-.navbar-nav{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  gap: 1rem;
+.navbar-nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
 }
 
-.navbar-nav,.nav-buttons:last-child{
+.navbar-nav,
+.nav-buttons:last-child {
     margin-bottom: 0;
 }
 
-.nav-buttons{
+.nav-buttons {
     color: #022601;
     font-weight: 600;
     font-size: 12px;
     text-decoration: none;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
     padding-right: 0;
 }
 
 .navbar-toggler-icon {
-  width: 1.1rem;
-  height: 1rem;
-  background-size: 1.5rem 1.5rem;
+    width: 1.1rem;
+    height: 1rem;
+    background-size: 1.5rem 1.5rem;
 }
 
-.navbar-toggler:focus,.navbar-toggler:focus-visible{
+.navbar-toggler:focus,
+.navbar-toggler:focus-visible {
     outline: none;
     box-shadow: none;
 }
@@ -62,7 +64,7 @@ header{
 
 /* BANNER HOME */
 
-.banner-home{
+.banner-home {
     height: 60vh;
     background-image: url("../img/bannerhome-adaptado.png");
     background-repeat: no-repeat;
@@ -74,20 +76,20 @@ header{
 
 /* MOSAICOS HOME */
 
-.menu-mosaicos{
+.menu-mosaicos {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 16px;
     padding: 20px 0;
 }
 
-.mosaico-item{
+.mosaico-item {
     place-items: center;
     gap: 14px;
     text-align: center;
 }
 
-.mosaico-imagen{
+.mosaico-imagen {
     margin-top: 30px;
     max-width: 100px;
     height: auto;
@@ -96,7 +98,7 @@ header{
     border: 0.5px solid #022601;
 }
 
-.text-mosaico-home{
+.text-mosaico-home {
     color: #022601;
     background-color: #2dd668;
     border-radius: 5px;
@@ -105,56 +107,56 @@ header{
     padding: 5px;
 }
 
-.text-mosaico-home:hover{
+.text-mosaico-home:hover {
     background-color: #F29C50;
 }
 
 /* TITULOS Y TEXTOS GENERALES */
 
-h1{
-    color:#12482e;
+h1 {
+    color: #12482e;
     font-size: 30px;
-    font-weight:bold;
+    font-weight: bold;
     text-align: center;
     padding: 10px;
 }
 
-h2{
+h2 {
     color: black;
     font-size: 18px;
     font-weight: bold;
 }
 
-h3{
+h3 {
     color: black;
     font-size: 16px;
     font-weight: bold;
 }
 
-h4{
+h4 {
     color: black;
     font-size: 14px;
     font-weight: bold;
 }
 
-p{
+p {
     color: black;
     font-size: 14px;
 }
 
 /* PRODUCTOS DESTACADOS */
 
-.produdestac-home{
+.produdestac-home {
     width: 180px;
 }
 
-.card{
+.card {
     margin: 10px;
 }
 
 /* QUERES HACER UN PEDIDO - HOME */
 
-.querespedir-home{
+.querespedir-home {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +170,7 @@ p{
     object-fit: cover;
 }
 
-.boton-contact-home{
+.boton-contact-home {
     background-color: #022601;
     color: #F2F2F2;
     font-weight: bold;
@@ -182,7 +184,7 @@ p{
 
 /* BOTONES */
 
-.botones{
+.botones {
     text-align: center;
     color: rgb(224, 109, 1);
 }
@@ -190,124 +192,124 @@ p{
 /* STYLE FOOTER */
 
 .footer {
-  background-color: #f2f2f2;
-  padding: 20px 16px;
-  padding-bottom: 10px;
+    background-color: #f2f2f2;
+    padding: 20px 16px;
+    padding-bottom: 10px;
 }
 
 .footer-container {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 48px;
-  max-width: 1100px;
-  margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 48px;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .footer h4 {
-  font-size: 1.1rem;
-  font-weight: 700;
-  margin-bottom: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  color: #1f3d1f;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #1f3d1f;
 }
 
 .footer-nav h4,
 .footer-redes h4 {
-  margin-bottom: 12px;
-  font-size: 12px;
+    margin-bottom: 12px;
+    font-size: 12px;
 }
 
 .footer-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.footer-nav li{
+.footer-nav li {
     font-size: 10px;
 }
 
-.footer-nav > ul > li {
-  margin-bottom: 16px;
-  font-weight: 500;
+.footer-nav>ul>li {
+    margin-bottom: 16px;
+    font-weight: 500;
 }
 
 .footer-submenu {
-  margin-top: 8px;
-  padding-left: 16px;
+    margin-top: 8px;
+    padding-left: 16px;
 }
 
 .footer-submenu li {
-  margin-bottom: 6px;
-  margin-top: 6px;
-  font-size: 8px;
-  list-style:disc
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-size: 8px;
+    list-style: disc
 }
 
 .footer-nav a {
-  text-decoration: none;
-  color: #333;
+    text-decoration: none;
+    color: #333;
 }
 
 .footer-nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 /* Redes */
 .redes-icons {
-  display: flex;
-  gap: 16px;
-  align-items: center;
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
 
 .redes-icons img {
-  max-width: 28px;
-  opacity: 0.8;
+    max-width: 28px;
+    opacity: 0.8;
 }
 
 .redes-icons img:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 /* BANNER CATÁLOGO */
 
 .banner-catalogo {
-  position: relative;
-  height: 40vh;
-  overflow: hidden;
-  margin-bottom: 20px;
+    position: relative;
+    height: 40vh;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .banner-catalogo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .banner-catalogo h1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  padding-left: 48px;
-  display: flex;
-  align-items: center;
-  font-size: 3rem;
-  font-weight: 800;
-  color: #022601;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
 /* STYLE CATÁLOGO */
 
-.catalogo{
+.catalogo {
     text-align: center;
 }
 
-.catalogo h2{
+.catalogo h2 {
     display: inline-block;
     background-color: #1F733C;
     color: #f2f2f2;
@@ -319,11 +321,11 @@ p{
     font-size: 24px;
 }
 
-.img-catalogo{
+.img-catalogo {
     width: 250px;
 }
 
-.card-boton{
+.card-boton {
     background-color: #F29C50;
     color: #F2F2F2;
     font-weight: bold;
@@ -336,46 +338,46 @@ p{
     font-size: 12px;
 }
 
-.card-boton:hover{
+.card-boton:hover {
     background-color: #BF3617;
 }
 
 /* STYLE CONTACTOS */
 
 .banner-contactos {
-  position: relative;
-  height: 40vh;
-  overflow: hidden;
-  margin-bottom: 20px;
+    position: relative;
+    height: 40vh;
+    overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .banner-contactos img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .banner-contactos h1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  padding-left: 48px;
-  display: flex;
-  align-items: center;
-  font-size: 3rem;
-  font-weight: 800;
-  color: #f2f2f2;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
-.title-contacto{
+.title-contacto {
     text-align: center;
 }
 
-.title-contacto h1{
+.title-contacto h1 {
     display: inline-block;
     background-color: #1F733C;
     color: #f2f2f2;
@@ -387,7 +389,7 @@ p{
     font-size: 24px;
 }
 
-.title-contacto h3{
+.title-contacto h3 {
     color: #1F733C;
     padding: 8px 15px;
     font-weight: 600;
@@ -399,137 +401,137 @@ p{
 /* Formulario */
 
 .form-contacto {
-  max-width: 420px;
-  margin: 0 auto;
-  display: grid;
-  gap: 16px;
+    max-width: 420px;
+    margin: 0 auto;
+    display: grid;
+    gap: 16px;
 }
 
 .form-field {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
 }
 
 .form-field label {
-  font-size: 12px;
-  font-weight: 600;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .form-field input {
-  padding: 8px 10px;
-  font-size: 14px;
-  border: 1px solid #bbb;
-  border-radius: 4px;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
 }
 
 .form-field input:focus {
-  outline: none;
-  border-color: #022601;
-  box-shadow: 0 0 0 3px rgba(45, 214, 104, 0.25);
-  background-color: #fff;
+    outline: none;
+    border-color: #022601;
+    box-shadow: 0 0 0 3px rgba(45, 214, 104, 0.25);
+    background-color: #fff;
 }
 
 .form-radios {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 12px;
 }
 
 .form-radios p {
-  font-weight: 600;
-  margin-bottom: 4px;
+    font-weight: 600;
+    margin-bottom: 4px;
 }
 
 .form-radios label {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 400;
 }
 
 .btn-enviar {
-  margin-top: 14px;
-  padding: 12px;
-  background-color: #1F733C;
-  color: #fff;
-  font-weight: 800;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
+    margin-top: 14px;
+    padding: 12px;
+    background-color: #1F733C;
+    color: #fff;
+    font-weight: 800;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 .btn-enviar:hover {
-  background-color: #022601;
+    background-color: #022601;
 }
 
 /* Post Formulario */
 
 .contacto-box {
-  max-width: 500px;
-  margin: 32px auto;
-  padding: 20px;
-  background-color: #f2f2f2;
-  border-left: 5px solid #F29C50;
-  border-radius: 8px;
-  text-align: center;
+    max-width: 500px;
+    margin: 32px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-left: 5px solid #F29C50;
+    border-radius: 8px;
+    text-align: center;
 }
 
 .contacto-box h2 {
-  font-size: 15px;
-  font-weight: 800;
-  margin-bottom: 12px;
-  color: #022601;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: #022601;
 }
 
 .contacto-box ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .contacto-box li {
-  font-size: 13px;
-  gap: 8px;
-  justify-content: center;
-  margin-bottom: 8px;
-  padding-left: 20px;
-  position: relative;
-  line-height: 1.4;
+    font-size: 13px;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.4;
 }
 
 .contacto-box li::before {
-  position: absolute;
-  left: 0;
-  top: 0.1em;
+    position: absolute;
+    left: 0;
+    top: 0.1em;
 }
 
 .icon-phone::before {
-  content: "📞";
-  position: absolute;
-  left: 0;
+    content: "📞";
+    position: absolute;
+    left: 0;
 }
 
 .icon-mail::before {
-  content: "✉️";
-  position: absolute;
-  left: 0;
+    content: "✉️";
+    position: absolute;
+    left: 0;
 }
 
 .icon-ig::before {
-  content: "📷";
-  position: absolute;
-  left: 0;
+    content: "📷";
+    position: absolute;
+    left: 0;
 }
 
 /* STYLE COMO COMPRAR */
 
-.title-comocomprar{
+.title-comocomprar {
     text-align: center;
 }
 
-.title-comocomprar h1{
+.title-comocomprar h1 {
     display: inline-block;
     background-color: #1F733C;
     color: #f2f2f2;
@@ -541,10 +543,10 @@ p{
     font-size: 24px;
 }
 
-.title-comocomprar h2{
+.title-comocomprar h2 {
     display: inline-block;
-    background-color: #f2f2f2;
-    color: #1F733C;
+    background-color: #F29C50;
+    color: #f2f2f2;
     padding: 8px 18px;
     font-weight: 600;
     border-radius: 10px;
@@ -554,38 +556,38 @@ p{
 }
 
 .pasos-compra {
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 40px 0;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
 }
 
 .paso-card {
-  border: 1px solid #ccc;
-  border-radius: 12px;
-  padding: 24px;
-  max-width: 260px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
 }
 
 .paso-card img {
-  width: 48px;
-  height: auto;
+    width: 48px;
+    height: auto;
 }
 
 .paso-card h3 {
-  font-size: 1rem;
-  font-weight: 600;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 .paso-card p {
-  font-size: 0.9rem;
-  color: #555;
+    font-size: 0.9rem;
+    color: #555;
 }
 
 /* Preguntas frecuentes */
@@ -594,6 +596,7 @@ p{
     background-image: var(--bs-accordion-btn-active-icon);
     transform: var(--bs-accordion-btn-icon-transform);
 }
+
 .accordion-button-custom::after {
     flex-shrink: 0;
     width: var(--bs-accordion-btn-icon-width);
@@ -605,7 +608,10 @@ p{
     background-size: var(--bs-accordion-btn-icon-width);
     transition: var(--bs-accordion-btn-icon-transition);
 }
-*, ::after, ::before {
+
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 
@@ -631,9 +637,100 @@ p{
 }
 
 .accordion-button-custom:not(.collapsed) {
-    color:#12482e;
+    color: #12482e;
     background-color: #f2f2f2;
     box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+/* STYLE SOBRE NOSOTROS */
+
+.banner-sobrenosotros {
+    position: relative;
+    height: 40vh;
+    min-height: 320px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.banner-sobrenosotros img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-sobrenosotros h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.sobre-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    align-items: center;
+}
+
+.titulo-seccion {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo-seccion span {
+    font-size: 2rem;
+    font-weight: 600;
+    display: inline-block;
+    background-color: #1F733C;
+    color: #f2f2f2;
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.texto-sobrenosotros p {
+    margin-bottom: 16px;
+    line-height: 1.6;
+    justify-content: center;
+}
+
+.imagen-sobrenosotros img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.persona-sobrenosotros {
+    text-align: center;
+}
+
+.persona-sobrenosotros img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 12px;
+}
+
+.persona-sobrenosotros h4 {
+    margin-bottom: 4px;
 }
 
 
@@ -661,5 +758,50 @@ p{
 
     .banner-catalogo {
         height: 220px;
+        min-height: unset;
+    }
+
+    .banner-catalogo img {
+        object-position: center;/
+    }
+
+    .banner-catalogo h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+
+    /* MEDIA QUERY SOBRE NOSOTROS */
+
+    .banner-sobrenosotros {
+        height: 220px;
+        min-height: unset;
+    }
+
+    .banner-sobrenosotros img {
+        object-position: center;/
+    }
+
+    .banner-sobrenosotros h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.6rem;
+        text-align: left;
+    }
+
+    .sobre-nosotros {
+        grid-template-columns: 1fr;
+    }
+
+    .imagen-sobrenosotros,
+    .texto-sobrenosotros,
+    .persona-sobrenosotros {
+        grid-column: 1 / -1;
+    }
+
+    .titulo-seccion span {
+        font-size: 1.6rem;
     }
 }
