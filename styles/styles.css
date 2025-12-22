@@ -527,6 +527,37 @@ p {
 
 /* STYLE COMO COMPRAR */
 
+.banner-comocomprar {
+    position: relative;
+    height: 40vh;
+    min-height: 320px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.banner-comocomprar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-comocomprar h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
 .title-comocomprar {
     text-align: center;
 }
@@ -748,6 +779,22 @@ p {
 @media (max-width: 500px) {
 
     /* MEDIA QUERY COMO COMPRAR */
+
+    .banner-comocomprar {
+        height: 220px;
+        min-height: unset;
+    }
+
+    .banner-comocomprar img {
+        object-position: center;/
+    }
+
+    .banner-comocomprar h1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1.6rem;
+        text-align: left;
+    }
 
     .pasos-compra {
         flex-direction: column;
