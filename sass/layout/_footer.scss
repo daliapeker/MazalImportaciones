@@ -1,0 +1,82 @@
+/* STYLE FOOTER */
+
+.footer {
+    background-color: variables.$color-gris;
+    padding: 20px 16px;
+    padding-bottom: 10px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 48px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer h4 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #1f3d1f;
+}
+
+.footer-nav h4,
+.footer-redes h4 {
+    margin-bottom: 12px;
+    font-size: 12px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    font-size: 10px;
+}
+
+.footer-nav>ul>li {
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.footer-submenu {
+    margin-top: 8px;
+    padding-left: 16px;
+}
+
+.footer-submenu li {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-size: 8px;
+    list-style: disc
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Redes */
+.redes-icons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.redes-icons img {
+    max-width: 28px;
+    opacity: 0.8;
+}
+
+.redes-icons img:hover {
+    opacity: 1;
+}

@@ -1,0 +1,147 @@
+/* STYLE COMO COMPRAR */
+
+.banner-comocomprar {
+    position: relative;
+    height: 40vh;
+    min-height: 320px;
+    overflow: hidden;
+    margin-bottom: 0px;
+}
+
+.banner-comocomprar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-comocomprar h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: variables.$color-gris;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.title-comocomprar {
+    text-align: center;
+}
+
+.title-comocomprar h1 {
+    display: inline-block;
+    background-color: variables.$color-verde-claro;
+    color: variables.$color-gris;
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.title-comocomprar h2 {
+    display: inline-block;
+    background-color: variables.$color-naranja-claro;
+    color: variables.$color-gris;
+    padding: 8px 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.pasos-compra {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.paso-card {
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 24px;
+    max-width: 260px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.paso-card img {
+    width: 48px;
+    height: auto;
+}
+
+.paso-card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.paso-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Preguntas frecuentes */
+
+.accordion-button-custom:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-active-icon);
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-button-custom::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: var(--bs-accordion-btn-icon);
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.accordion-button-custom {
+    border-top-left-radius: var(--bs-accordion-inner-border-radius);
+    border-top-right-radius: var(--bs-accordion-inner-border-radius);
+}
+
+.accordion-button-custom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 1rem;
+    color: var(--bs-accordion-btn-color);
+    text-align: left;
+    background-color: var(--bs-accordion-btn-bg);
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+}
+
+.accordion-button-custom:not(.collapsed) {
+    color: #12482e;
+    background-color: variables.$color-gris;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}

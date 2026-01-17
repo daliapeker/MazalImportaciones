@@ -1,0 +1,50 @@
+/* STYLE HEADER */
+
+header {
+    background-color: variables.$color-gris;
+
+}
+
+.logo-header {
+    width: 100px;
+}
+
+.nav-bgcolor {
+    background-color: variables.$color-gris;
+}
+
+.navbar-nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 1rem;
+}
+
+.navbar-nav,
+.nav-buttons:last-child {
+    margin-bottom: 0;
+}
+
+.nav-buttons {
+    color: variables.$color-verde-oscuro;
+    font-weight: 600;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    border: none;
+    padding-right: 0;
+}
+
+.navbar-toggler-icon {
+    width: 1.1rem;
+    height: 1rem;
+    background-size: 1.5rem 1.5rem;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+

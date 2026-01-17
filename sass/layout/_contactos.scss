@@ -1,0 +1,115 @@
+/* STYLE CONTACTOS */
+
+.banner-contactos {
+    position: relative;
+    height: 40vh;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.banner-contactos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-contactos h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 800;
+    color: variables.$color-gris;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+.title-contacto {
+    text-align: center;
+}
+
+.title-contacto h1 {
+    display: inline-block;
+    background-color: variables.$color-verde-claro;
+    color: variables.$color-gris;
+    padding: 10px 20px;
+    font-weight: 800;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.title-contacto h3 {
+    color: variables.$color-verde-oscuro;
+    padding: 8px 15px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+
+/* Post Formulario */
+
+.contacto-box {
+    max-width: 500px;
+    margin: 32px auto;
+    padding: 20px;
+    background-color: variables.$color-gris;
+    border-left: 5px solid variables.$color-verde-masclaro;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contacto-box h2 {
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 12px;
+    color: variables.$color-verde-oscuro;
+}
+
+.contacto-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contacto-box li {
+    font-size: 13px;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.4;
+}
+
+.contacto-box li::before {
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+}
+
+.icon-phone::before {
+    content: "📞";
+    position: absolute;
+    left: 0;
+}
+
+.icon-mail::before {
+    content: "✉️";
+    position: absolute;
+    left: 0;
+}
+
+.icon-ig::before {
+    content: "📷";
+    position: absolute;
+    left: 0;
+}

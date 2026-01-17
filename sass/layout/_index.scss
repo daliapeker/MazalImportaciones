@@ -1,0 +1,86 @@
+/* BANNER HOME */
+
+.banner-home {
+    height: 60vh;
+    background-image: url("../img/bannerhome-adaptado.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+/* MOSAICOS HOME */
+
+.menu-mosaicos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 16px;
+    padding: 20px 0;
+}
+
+.mosaico-item {
+    place-items: center;
+    gap: 14px;
+    text-align: center;
+}
+
+.mosaico-imagen {
+    margin-top: 30px;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    border: 0.5px solid variables.$color-verde-oscuro;
+}
+
+.text-mosaico-home {
+    color: variables.$color-verde-oscuro;
+    background-color: variables.$color-verde-masclaro;
+    border-radius: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.text-mosaico-home:hover {
+    background-color: variables.$color-naranja-claro;
+}
+
+/* PRODUCTOS DESTACADOS */
+
+.produdestac-home {
+    width: 180px;
+}
+
+.card {
+    margin: 10px;
+}
+
+/* QUERES HACER UN PEDIDO - HOME */
+
+.querespedir-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../img/banner-cajasdepositoII.png);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.boton-contact-home {
+    background-color: variables.$color-verde-oscuro;
+    color: variables.$color-gris;
+    font-weight: bold;
+    padding: 12px 32px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 40px;
+}
