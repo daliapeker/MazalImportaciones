@@ -5,46 +5,46 @@
     height: 40vh;
     overflow: hidden;
     margin-bottom: 20px;
-}
 
-.banner-catalogo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-.banner-catalogo h1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    padding-left: 48px;
-    display: flex;
-    align-items: center;
-    font-size: 3rem;
-    font-weight: 800;
-    color: variables.$color-gris;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+    h1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        padding-left: 48px;
+        display: flex;
+        align-items: center;
+        font-size: 3rem;
+        font-weight: 800;
+        color: variables.$color-gris;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+    }
 }
 
 /* STYLE CATÁLOGO */
 
 .catalogo {
     text-align: center;
-}
 
-.catalogo h2 {
-    display: inline-block;
-    background-color: variables.$color-verde-claro;
-    color: variables.$color-gris;
-    padding: 10px 20px;
-    font-weight: 800;
-    border-radius: 10px;
-    margin-bottom: 25px;
-    margin-top: 25px;
-    font-size: 24px;
+    h2 {
+        display: inline-block;
+        background-color: variables.$color-verde-claro;
+        color: variables.$color-gris;
+        padding: 10px 20px;
+        font-weight: 800;
+        border-radius: 10px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+        font-size: 24px;
+    }
 }
 
 .img-catalogo {
@@ -62,8 +62,9 @@
     text-decoration: none;
     border-radius: 40px;
     font-size: 12px;
+
+    &:hover {
+        background-color: variables.$color-naranja-oscuro;
+    }
 }
 
-.card-boton:hover {
-    background-color: variables.$color-naranja-oscuro;
-}

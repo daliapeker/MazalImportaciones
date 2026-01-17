@@ -41,11 +41,15 @@
     font-size: 14px;
     text-decoration: none;
     padding: 5px;
+
+    &:hover {
+        background-color: variables.$color-naranja-claro;
+    }
 }
 
-.text-mosaico-home:hover {
-    background-color: variables.$color-naranja-claro;
-}
+// .text-mosaico-home:hover {
+//     background-color: variables.$color-naranja-claro;
+// }
 
 /* PRODUCTOS DESTACADOS */
 
