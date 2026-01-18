@@ -1,33 +1,18 @@
 @use '../utilities/variables';
+@use '../utilities/mixins' as *;
 
 /* BANNER CATÁLOGO */
 
 .banner-catalogo {
-    position: relative;
-    height: 40vh;
-    overflow: hidden;
-    margin-bottom: 20px;
+
+    @include main-banner(20px);
 
     img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        @include main-banner-img;
     }
 
     h1 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        padding-left: 48px;
-        display: flex;
-        align-items: center;
-        font-size: 3rem;
-        font-weight: 800;
-        color: variables.$color-gris;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
+        @include main-banner-h1;
     }
 }
 
@@ -69,4 +54,3 @@
         background-color: variables.$color-naranja-oscuro;
     }
 }
-

@@ -259,11 +259,13 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   height: 100%;
   padding-left: 48px;
   display: flex;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   color: #F2F2F2;
   text-transform: uppercase;
@@ -323,11 +325,13 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   height: 100%;
   padding-left: 48px;
   display: flex;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
   color: #F2F2F2;
   text-transform: uppercase;
@@ -416,9 +420,9 @@ header {
 .banner-comocomprar {
   position: relative;
   height: 40vh;
-  min-height: 320px;
   overflow: hidden;
   margin-bottom: 0px;
+  min-height: 320px;
 }
 .banner-comocomprar img {
   width: 100%;
@@ -431,6 +435,7 @@ header {
   left: 0;
   right: 0;
   bottom: 0;
+  height: 100%;
   padding-left: 48px;
   display: flex;
   align-items: center;
@@ -555,9 +560,9 @@ header {
 .banner-sobrenosotros {
   position: relative;
   height: 40vh;
-  min-height: 320px;
   overflow: hidden;
   margin-bottom: 0px;
+  min-height: 320px;
 }
 .banner-sobrenosotros img {
   width: 100%;
@@ -570,6 +575,7 @@ header {
   left: 0;
   right: 0;
   bottom: 0;
+  height: 100%;
   padding-left: 48px;
   display: flex;
   align-items: center;
