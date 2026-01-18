@@ -1,0 +1,165 @@
+/* MEDIA QUERY */
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        flex-direction: row;
+        gap: 2rem;
+        padding: 0;
+        text-align: end;
+    }
+}
+
+@media (max-width: 500px) {
+
+/* MEDIA QUERY HOME */
+
+  .banner-home {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background-size: cover;
+    background-position: center top;
+  }
+
+  .menu-mosaicos {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .mosaico-imagen {
+    max-width: 80px;
+    margin-top: 10px;
+  }
+
+  .text-mosaico-home {
+    font-size: 13px;
+    padding: 4px 6px;
+  }
+
+  .querespedir-home {
+    height: auto;
+    padding: 40px 20px;
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+  }
+
+  .boton-contact-home {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+/* MEDIA QUERY CONTACTOS */
+
+  .banner-contactos {
+        height: 220px;
+        min-height: unset;
+
+        img {
+            object-position: center;
+        }
+
+        h1 {
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 1.6rem;
+            text-align: left;
+    }
+        }
+
+    .title-contacto h1 {
+        font-size: 20px;
+        padding: 8px 14px;
+    }
+
+    .title-contacto h3 {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .form-contacto {
+        padding: 0 12px;
+    }
+
+    .contacto-box {
+        margin: 24px 12px;
+    }
+
+/* MEDIA QUERY COMO COMPRAR */
+
+    .banner-comocomprar {
+        height: 220px;
+        min-height: unset;
+
+        img {
+            object-position: center;
+        }
+
+        h1 {
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 1.6rem;
+            text-align: left;
+    }
+        }
+
+    .pasos-compra {
+        flex-direction: column;
+        align-items: center;
+    }
+
+/* MEDIA QUERY CATÁLOGO */
+
+    .banner-catalogo {
+        height: 220px;
+        min-height: unset;
+
+        img {
+            object-position: center;
+        }
+
+        h1 {
+            padding-left: 20px;
+            padding-right: 20px;
+            font-size: 1.6rem;
+            text-align: left;
+        }
+    }
+
+/* MEDIA QUERY SOBRE NOSOTROS */
+
+    .banner-sobrenosotros {
+        height: 220px;
+        min-height: unset;
+
+    }
+
+    .banner-sobrenosotros img {
+        object-position: center;
+     }
+
+     .banner-sobrenosotros h1 {
+         padding-left: 20px;
+         padding-right: 20px;
+         font-size: 1.6rem;
+         text-align: left;
+     }
+
+    .sobre-nosotros {
+        grid-template-columns: 1fr;
+    }
+
+    .imagen-sobrenosotros,
+    .texto-sobrenosotros,
+    .persona-sobrenosotros {
+        grid-column: 1 / -1;
+    }
+
+    .titulo-seccion span {
+        font-size: 1.6rem;
+    }
+}
