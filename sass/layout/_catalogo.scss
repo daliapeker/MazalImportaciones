@@ -42,15 +42,47 @@
     background-color: variables.$color-naranja-claro;
     color: variables.$color-gris;
     font-weight: bold;
+    font-size: 12px; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     padding: 8px 20px;
+    height: 48px;
     border: none;
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
     border-radius: 40px;
-    font-size: 12px;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow:
+        rgba(45, 35, 66, 0.2) 0 2px 4px,
+        rgba(45, 35, 66, 0.15) 0 7px 13px -3px,
+        #d6d6e7 0 -3px 0 inset;
+    transition: box-shadow 0.15s, transform 0.15s;
 
-    &:hover {
+    &:focus{
+        box-shadow:
+            #d6d6e7 0 0 0 1.5px inset,
+            rgba(45, 35, 66, 0.4) 0 2px 4px,
+            rgba(45, 35, 66, 0.3) 0 7px 13px -3px,
+            #d6d6e7 0 -3px 0 inset;
+
+    }
+    
+    &:hover{
+        box-shadow:
+            rgba(45, 35, 66, 0.3) 0 4px 8px,
+            rgba(45, 35, 66, 0.2) 0 7px 13px -3px,
+            #d6d6e7 0 -3px 0 inset;
+        transform: translateY(-2px);
         background-color: variables.$color-naranja-oscuro;
     }
-}
+
+    &:active {
+        box-shadow: #d6d6e7 0 3px 7px inset;
+        transform: translateY(2px);
+    }
+    
+} 
+
+
