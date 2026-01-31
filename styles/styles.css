@@ -243,6 +243,9 @@ header {
   background-size: cover;
   object-fit: cover;
 }
+.querespedir-home h3 {
+  font-size: 20px;
+}
 
 .boton-contact-home {
   background-color: #022601;
@@ -498,7 +501,7 @@ header {
 .title-comocomprar {
   text-align: center;
 }
-.title-comocomprar h1 {
+.title-comocomprar h2 {
   display: inline-block;
   background-color: #1F733C;
   color: #F2F2F2;
