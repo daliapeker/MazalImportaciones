@@ -20,16 +20,16 @@
 .title-contacto {
     text-align: center;
 
-    h1 {
+    h2 { 
         display: inline-block;
         background-color: variables.$color-verde-claro;
         color: variables.$color-gris;
-        padding: 10px 20px;
-        font-weight: 800;
+        padding: 10px 15px;
+        font-weight: 800; 
         border-radius: 10px;
         margin-bottom: 8px;
         margin-top: 25px;
-        font-size: 24px;
+        font-size: 20px; 
     }
 
     h3 {

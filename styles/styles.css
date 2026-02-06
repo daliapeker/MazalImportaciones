@@ -393,16 +393,16 @@ header {
 .title-contacto {
   text-align: center;
 }
-.title-contacto h1 {
+.title-contacto h2 {
   display: inline-block;
   background-color: #1F733C;
   color: #F2F2F2;
-  padding: 10px 20px;
+  padding: 10px 15px;
   font-weight: 800;
   border-radius: 10px;
   margin-bottom: 8px;
   margin-top: 25px;
-  font-size: 24px;
+  font-size: 20px;
 }
 .title-contacto h3 {
   color: #022601;
